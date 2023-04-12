@@ -83,9 +83,10 @@ xnor(y8,a,b);
 endmodule
 ```
 
-Logic symbol
+Logic symbol:
 
 RTL realization
+
 ![Screenshot 2023-04-12 141834](https://user-images.githubusercontent.com/121117266/231405347-c30eb877-43da-451e-93b4-fb525623cae7.png)
 
 Truthtable
