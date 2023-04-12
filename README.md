@@ -65,7 +65,6 @@ Check all the gates following the same procedure.
 Program:
 
 ```python
-*/
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
 Developed by: Aakashraj M 
 RegisterNumber: 212222100002
@@ -82,7 +81,6 @@ nor(y6,a,b);
 xor(y7,a,b);
 xnor(y8,a,b);
 endmodule
-*/
 ```
 
 Logic symbol
