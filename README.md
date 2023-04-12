@@ -1,12 +1,13 @@
 # Study-of-basic-digital-IC-s-and-verification-of-truth-tables-for-different-logic-gates-realization-
-###AIM:
+AIM:
 To study about the different digital IC’s and to verify the truth table in Quartus for the basic logic gates using Verilog programming.
 
 Equipments Required:
 Hardware – PCs, Cyclone II , USB flasher
 Software – Quartus prime
 Theory
-###Introduction
+
+Introduction :
 Logic gates are the basic building blocks of any digital system. Logic gates are electronic circuits having one or more than one input and only one output. The relationship between the input and the output is based on a certain logic. Based on this, logic gates are named as
 
 AND gate
@@ -16,6 +17,7 @@ NAND gate
 NOR gate
 Ex-OR gate
 Ex-NOR gate
+
 1) AND gate
 The AND gate is an electronic circuit that gives a high output (1) only if all its inputs are high. A dot (.) is used to show the AND operation i.e. A.B or can be written as AB
 
@@ -51,13 +53,17 @@ The 'Exclusive-NOR' gate circuit does the opposite to the EX-OR gate. It will gi
 
 Y= A⊕B
 
-###Procedure
+Procedure:
+
 Connect the supply (+5V) to the circuit
 Switch ON the main switch
 Press the switches for inputs “A” and “B”. The switch is ON state when 1 is pressed. The switch is OFF state when 0 is pressed.
 If the output is 1, then the bulb glows.
 Check all the gates following the same procedure.
-###Program:
+
+
+Program:
+
 ```python
 */
 Program to verify the truth table in quartus for the basic logic gates using Verilog programming.
@@ -76,25 +82,27 @@ nor(y6,a,b);
 xor(y7,a,b);
 xnor(y8,a,b);
 endmodule
-
 */
 ```
-###Logic symbol
+
+Logic symbol
+
 RTL realization
 ![Screenshot 2023-04-12 141834](https://user-images.githubusercontent.com/121117266/231405347-c30eb877-43da-451e-93b4-fb525623cae7.png)
 
-###Truthtable
+Truthtable
+
 ![Screenshot 2023-04-12 141849](https://user-images.githubusercontent.com/121117266/231407101-5618f48d-83ed-41bc-9b3a-265d9d5fcaf8.png)
 
 
-###Output:
+Output:
+
 RTL
 
 ![guhbhjk](https://user-images.githubusercontent.com/121117266/231407359-9b1778ef-f847-4c05-8081-05ad644049f8.png)
 
 
 
-
-###Result:
+Result:
 
 Thus the different digital IC’s are studied and the truth table for different logic gates are verified.
